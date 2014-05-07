@@ -38,7 +38,7 @@
 
     function scrollTo(aid){
       var aTag = $("#"+aid);
-      $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+      $('html,body').animate({scrollTop: aTag.offset().top - 20},'slow');
         window.location.hash = aid;
     }
     </script>
