@@ -34,6 +34,10 @@
     display:none;
 }
 
+.post-toc a {
+    cursor: pointer;
+}
+
 .post-toc ul {
   list-style-type: none;
   margin: 0;

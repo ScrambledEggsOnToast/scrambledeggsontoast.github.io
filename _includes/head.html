@@ -34,6 +34,14 @@
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   {% if page.toc %}
     <script src="/public/js/toc.js"></script>
+    <script type="text/javascript">
+
+    function scrollTo(aid){
+      var aTag = $("#"+aid);
+      $('html,body').animate({scrollTop: aTag.offset().top},'fast');
+        window.location.hash = aid;
+    }
+    </script>
   {% endif %}
   <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
