@@ -29,4 +29,7 @@
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
+  {% if page.toc %}
+      <div class="post-toc"></div>
+    {% endif %}
 </div>

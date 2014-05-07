@@ -1,5 +1,7 @@
 # Dependencies
 markdown:         redcarpet
+redcarpet:
+  extensions:       [with_toc_data]
 pygments:         true
 
 # Permalinks
@@ -22,3 +24,9 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/ScrambledEggsOnToast/scrambledeggsontoast.github.io
+
+defaults:
+    scope:
+        path: ""
+    values:
+        toc: false
