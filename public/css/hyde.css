@@ -77,10 +77,14 @@ html {
 }
 
 /* About section */
-.sidebar-about h1 {
+.sidebar-about h1 a {
   color: #fff;
   margin-top: 0;
   font-size: 3rem;
+}
+
+.sidebar-about h1 a:hover {
+    text-decoration:none;
 }
 
 /* Sidebar nav */
