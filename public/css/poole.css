@@ -325,9 +325,18 @@ tbody tr:nth-child(odd) th {
 
 /* Meta data line below post title */
 .post-date {
-  display: block;
+  display: inline-block;
   margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  font-size: 0.65rem;
   color: #9a9a9a;
+}
+
+.post-comments {
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 0;
+    margin: 0;
 }
 
 ul.post-tags {
@@ -335,7 +344,8 @@ ul.post-tags {
     margin: 0px;
     padding: 0px;
     font-size: 0.65rem;
-    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    display: inline-block;
 }
 
 ul.post-tags::before {

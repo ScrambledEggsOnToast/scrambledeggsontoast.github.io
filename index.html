@@ -11,21 +11,22 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-    {% if post.comments %}
-    <div class="post-comments"><a href="{{ post.url }}#disqus_thread">comments</a></div>
-    {% endif %}
+    <span class="post-date">{{ post.date | date_to_string }}</span>
     <ul class="post-tags">
       {% for tag in post.tags %}
       <li> {{tag}} </li>
       {% endfor %}
     </ul>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {% if post.comments %}
+    <div class="post-comments"><a href="{{ post.url }}#disqus_thread">comments</a></div>
+    {% endif %}
     {% capture truncated_content %}{{ post.content | truncatewords: 100 }}{% endcapture %}
     {{ truncated_content }}
     {% if post.content != truncated_content %}
     <a href="{{ post.url }}" class="post-more-link">More</a>
     {% endif %}
   </div>
+  <hr>
   {% endfor %}
 </div>
 
