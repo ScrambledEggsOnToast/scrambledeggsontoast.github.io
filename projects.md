@@ -8,4 +8,6 @@ A clone of [2048](https://github.com/gabrielecirulli/2048) (itself a clone of [1
 
 [Play here!](http://scrambledeggsontoast.github.io/2048-elm/build/)
 
+![2048-elm screenshot]({{ site.url }}/assets/2048-elm_screenshot.png)
+
 [Git](https://github.com/ScrambledEggsOnToast/2048-elm).
