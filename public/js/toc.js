@@ -3,7 +3,7 @@
   $.fn.toc = function(options) {
     var defaults = {
       noBackToTopLinks: false,
-      title: '<i>Contents</i>',
+      title: '<p class="toc-header">Contents</p>',
       listType: 'ol', // values: [ol|ul]
       showSpeed: 'slow'
     },
@@ -23,7 +23,7 @@
     
     var level = get_level(headers[0]),
       this_level,
-      html = settings.title + " <"+settings.listType+">";
+      html = settings.title + " <"+settings.listType+">" + return_to_top;
     headers.on('click', function() {
       if (!settings.noBackToTopLinks) {
         window.location.hash = this.id;

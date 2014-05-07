@@ -25,6 +25,10 @@
     }
 }
 
+.post-toc .toc-header {
+    margin-bottom: 0;
+}
+
 
 .post-toc ul {
   list-style-type: none;

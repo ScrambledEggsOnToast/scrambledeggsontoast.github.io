@@ -26,10 +26,13 @@
         {% endif %}
       {% endfor %}
     </ul>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  </div>
+</div>
   {% if page.toc %}
       <div class="post-toc"></div>
     {% endif %}
+
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+
 </div>
