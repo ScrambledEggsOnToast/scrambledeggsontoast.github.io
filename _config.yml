@@ -30,3 +30,4 @@ defaults:
         path: ""
     values:
         toc: false
+        comments: true

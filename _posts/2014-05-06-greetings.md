@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Greetings.
+comments: false
 tags: 
     - ramblings
 ---
