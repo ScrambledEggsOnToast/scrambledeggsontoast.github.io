@@ -24,12 +24,10 @@
     
     var level = get_level(headers[0]),
       this_level,
-      html = settings.title + " <"+settings.listType+">" + return_to_top;
+      html = settings.title + " <"+settings.listType+">" + '<li><a class="back-to-top">Top</a></li>';
     headers.each(function(_, header) {
       this_level = get_level(header);
-      if (!settings.noBackToTopLinks && this_level === highest_level) {
-        $(header).addClass('top-level-header').after(return_to_top);
-      }
+
       if (this_level === level) // same level as before; same indenting
         html += "<li><a onClick=\"scrollTo('" + header.id + "')\">" + header.innerHTML + "</a>";
       else if (this_level < level) // higher level than before; end parent ol
@@ -41,7 +39,7 @@
     html += "</"+settings.listType+">";
     if (!settings.noBackToTopLinks) {
       $(document).on('click', '.back-to-top', function() {
-        $('html,body').animate({scrollTop: 0},'fast');
+        $('html,body').animate({scrollTop: 0},'slow');
         window.location.hash = '';
       });
     }
