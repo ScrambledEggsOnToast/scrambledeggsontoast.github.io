@@ -4,7 +4,7 @@
 
     var defaults = {
       noBackToTopLinks: false,
-      title: '<p class="toc-header">Contents</p>',
+      title: '', //'<p class="toc-header">Contents</p>',
       listType: 'ol', // values: [ol|ul]
       showSpeed: 'slow'
     },
