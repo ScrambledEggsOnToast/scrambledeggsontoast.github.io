@@ -60,7 +60,7 @@
 
 
     var atHeader = function (y) {
-        var yd = y + 0.1 * $(window).height();
+        var yd = y - 0.2 * $(window).height();
         var pasts = $.map(offsetArr, function(offset) {
             return (offset < yd ? 1 : 0);
         });
@@ -68,7 +68,7 @@
         for (i = 0; i < pasts.length; i++) {
             number += pasts[i];
         }
-        return number-1;
+        return number;
     }
     
     var updateLinkClasses = function() {
