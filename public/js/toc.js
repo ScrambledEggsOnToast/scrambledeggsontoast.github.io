@@ -60,7 +60,7 @@
 
 
     var atHeader = function (y) {
-        var yd = y + 0.3 * $(window).height();
+        var yd = y + 0.1 * $(window).height();
         var pasts = $.map(offsetArr, function(offset) {
             return (offset < yd ? 1 : 0);
         });
