@@ -128,6 +128,9 @@ a.sidebar-nav-item:focus {
 .content {
   padding-top:    4rem;
   padding-bottom: 4rem;
+}
+
+.content p {
   text-align: justify;
 }
 

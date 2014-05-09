@@ -1,6 +1,7 @@
 .returnable-header {
   display:inline;
 }
+
 .post a.back-to-top {
   display:block;
   cursor:pointer;
@@ -24,6 +25,15 @@
 
 .post-toc a {
     cursor: pointer;
+}
+
+.post-toc li {
+    line-height: 1rem;
+    margin-top: 0.5rem;
+}
+
+.post-toc>ul>li:first-of-type {
+    margin-top: 0;
 }
 
 .post-toc ul {
