@@ -10,7 +10,8 @@
 
 .post-toc {
     background-color: rgba(255,255,255,0.1);
-    padding: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
     margin-bottom: 1rem;
 }
 @media (max-width:48rem) {
@@ -25,15 +26,20 @@
 
 .post-toc a {
     cursor: pointer;
+    display: block;
 }
 
 .post-toc li {
     line-height: 1rem;
-    margin-top: 0.5rem;
 }
 
-.post-toc>ul>li:first-of-type {
-    margin-top: 0;
+.post-toc li div {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .post-toc ul {
@@ -51,3 +57,7 @@
 .post-toc ul ul ul li a{
     color: rgba(255,255,255,0.6);
   }
+
+.toc-current-section {
+    background-color: rgba(255,255,255,0.2);
+}
