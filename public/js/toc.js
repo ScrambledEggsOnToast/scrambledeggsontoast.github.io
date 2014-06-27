@@ -81,8 +81,8 @@
     $(window).on('load', updateLinkClasses);
     $(window).on('scroll', updateLinkClasses);
 
-    var toFootnotes = $("a[rel='footnote']");
-    var fromFootnotes = $("a[rel='reference']");
+    var toFootnotes = $("a[id='footnote']");
+    var fromFootnotes = $("a[id='reference']");
 
     $.each(toFootnotes, function(_,a) {
         var href = $(a).attr("href");
