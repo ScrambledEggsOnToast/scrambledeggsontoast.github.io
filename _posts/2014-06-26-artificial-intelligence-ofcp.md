@@ -100,6 +100,8 @@ The fact is however that optimisation is neither one of my strengths nor somethi
 
 Kachushi is open source and available [on GitHub](https://github.com/ScrambledEggsOnToast/Kachushi). Feel free to contribute, particularly in the aforementioned area of optimisation.
 
+As of the publication of this post, I am not done a huge amount to make the code very neat, and nor have I done much commenting. I will fix this at some point.
+
  ---
 
 [^finland]: Called Chinese, although interestingly invented in Finland.
