@@ -84,7 +84,7 @@
     var toFootnotes = $("a[rel='footnote']");
     var fromFootnotes = $("a[rel='reference']");
 
-    /*$.each(toFootnotes, function(_,a) {
+    $.each(toFootnotes, function(_,a) {
         var href = $(a).attr("href");
         $(a).removeAttr("href").css("cursor","pointer");
         $(a).attr('onClick','scrollTo("'+href.substring(1)+'")');
@@ -93,6 +93,6 @@
         var href = $(a).attr("href");
         $(a).removeAttr("href").css("cursor","pointer");
         $(a).attr('onClick','scrollTo("'+href.substring(1)+'")');
-    });*/
+    });
   };
 })(jQuery);
