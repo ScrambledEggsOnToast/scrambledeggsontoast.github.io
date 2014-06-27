@@ -1,5 +1,5 @@
 // based on https://github.com/ghiculescu/jekyll-table-of-contents
-(function($){
+(function($) {
   $.fn.toc = function(options) {
 
     var defaults = {
@@ -80,5 +80,19 @@
 
     $(window).on('load', updateLinkClasses);
     $(window).on('scroll', updateLinkClasses);
+
+    var toFootnotes = $("a[rel='footnote']");
+    var fromFootnotes = $("a[rel='reference']");
+
+    /*$.each(toFootnotes, function(_,a) {
+        var href = $(a).attr("href");
+        $(a).removeAttr("href").css("cursor","pointer");
+        $(a).attr('onClick','scrollTo("'+href.substring(1)+'")');
+    });
+    $.each(fromFootnotes, function(_,a) {
+        var href = $(a).attr("href");
+        $(a).removeAttr("href").css("cursor","pointer");
+        $(a).attr('onClick','scrollTo("'+href.substring(1)+'")');
+    });*/
   };
 })(jQuery);

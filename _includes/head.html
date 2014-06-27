@@ -33,15 +33,18 @@
 
   <!-- JavaScript -->
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
   {% if page.toc %}
     <script src="/public/js/toc.js"></script>
     <script type="text/javascript">
 
     function scrollTo(aid){
-      var aTag = $("#"+aid);
+      var aTag = $("*[id='"+aid+"']");
       $('html,body').animate({scrollTop: aTag.offset().top - 0.2*$(window).height()},'slow');
         window.location.hash = aid;
     }
+
+
     </script>
 
   {% endif %}

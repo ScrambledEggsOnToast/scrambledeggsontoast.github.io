@@ -255,3 +255,33 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+.post .footnotes {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.post .footnotes ol {
+}
+
+.post .footnotes ol li p {
+    margin-bottom: 0.5rem;
+}
+
+sup {
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.2rem;
+}
+
+em {
+    font-style: italic;
+}
+
+figcaption {
+    font-size: 0.75rem;
+}
+
+strong {
+    font-weight: bold;
+}
