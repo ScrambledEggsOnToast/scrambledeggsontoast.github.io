@@ -96,6 +96,14 @@ Although I have attempted to optimise large sections of my code, by for example 
 
 The fact is however that optimisation is neither one of my strengths nor something I particularly enjoy. Kachushi works, and at this point the efficiency with which it works is good enough for me.
 
+## Weaknesses
+
+Kachushi acts under the assumption that its opponents are not very good players. In fact, it models them as completely random. This is clearly a big weakness. Although it might not always seem like it, poker players do have reasons behind their decisions. Perhaps at some point I will teach Kachushi to learn about its opponents.
+
+Kachushi also models itself in future turns to be completely random. That is, it cannot think very far ahead. This will also need fixing.
+
+Kachushi may be predictable. In similar situations it will usually make the same choices, and so an adept opponent may be able to take advantage of this.
+
 ## The code
 
 Kachushi is open source and available [on GitHub](https://github.com/ScrambledEggsOnToast/Kachushi). Feel free to contribute, particularly in the aforementioned area of optimisation.
