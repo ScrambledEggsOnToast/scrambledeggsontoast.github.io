@@ -8,7 +8,7 @@ tags:
 toc: true
 ---
 
-About a month ago, [/u/5outh](http://www.reddit.com/user/5outh) posted an article called [Modeling and Simulating Markov Chain Evolution in Haskell](http://5outh.github.io/posts/2014-08-04-markov-chains.html) to [/r/haskell](http://5outh.github.io/posts/2014-08-04-markov-chains.html). It's an interesting read, and it has a fairly amusing conclusion &mdash; a [twitter account called rapcandy](https://twitter.com/_rapcandy) that gives a single line of stochastic rap every day, using patterns drawn from the wisdom of Eminem.
+About a month ago, [/u/5outh](http://www.reddit.com/user/5outh) posted an article called [Modeling and Simulating Markov Chain Evolution in Haskell](http://5outh.github.io/posts/2014-08-04-markov-chains.html) to [/r/haskell](http://www.reddit.com/r/haskell). It's an interesting read, and it has a fairly amusing conclusion &mdash; a [twitter account called rapcandy](https://twitter.com/_rapcandy) that gives a single line of stochastic rap every day, using patterns drawn from the wisdom of Eminem.
 
 For a given sequence of things (be they words in a sentence, letters in a word, musical notes in a melody, etc.), we have that for every given pair of things, say _a_ and _b_, there is a certain probability of _b_ following _a_ in the sequence, which we call the **transition probability**. So for example in the sequence:
 
@@ -173,7 +173,7 @@ I thought this seemed like a great solution to the undecipherable table of numbe
 
 <center><img src="/public/assets/dendrogrammar.svg" style="padding: 1rem;" /></center>
 
-This is much easier to understand than the table, and even seems to show mostly reasonable results. For example, the three Englishes are all grouped tightly together (with US and Canadian English matching closest), as are the two Frenches, and Catalan and Valencian. There seem to be main groupings in the diagram vaguely aligning with West and East Europe. 
+This is much easier to understand than the table, and even seems to show mostly reasonable results. For example, the three Englishes are all grouped tightly together (with US and Canadian English matching closest), as are the two Frenches, and Catalan and Valencian. There seem to be main groupings in the diagram vaguely aligning with geography. 
 
 One curve ball is Indonesian being linked with croatian and finnish, but we have to remember that this diagram is based on written language, specifically the Latin alphabet. Indonesian didn't have a writing system until the turn of the 20th century (created in fact by Dutch colonists), so this method may not give very meaningful results about Indonesian.
 
