@@ -7,8 +7,6 @@ title: Projects
 
 An artificial intelligence for the game of Open Face Chinese Poker.
 
-<img src="/public/assets/kachushi.svg" style="padding: 1rem;" />
-
 [GitHub](https://github.com/ScrambledEggsOnToast/Kachushi).
 
 ## 2048-elm
@@ -18,3 +16,15 @@ A clone of [2048](https://github.com/gabrielecirulli/2048) (itself a clone of [1
 [Play here!](http://scrambledeggsontoast.github.io/2048-elm/build/)
 
 [GitHub](https://github.com/ScrambledEggsOnToast/2048-elm).
+
+## names
+
+A tool to generate letter transition matrices and dendrograms for lists of words, as described [here](http://scrambledeggsontoast.github.io/2014/09/18/dabbling-computational-linguistics/).
+
+[GitHub](https://github.com/ScrambledEggsOnToast/names).
+
+## tetris-hs
+
+A clone of Tetris using FRP in Haskell.
+
+[GitHub](https://github.com/ScrambledEggsOnToast/tetris-hs).
