@@ -11,6 +11,8 @@ tags:
 
 A few weeks ago, I found myself on a ten hour plane journey, with nothing much to do[^apartfrom]. What better time, I thought to myself, than to hone my programming skills on a quick project? Why not a Tetris clone in Haskell? The fact that I was offline and so had no access to documentation only added to the challenge. I slid my laptop out of my bag, and got to work. 
 
+<!--break-->
+
 I had been working on a project involving GLFW and Netwire[^whynetwire] for a little time before my holiday, so these were the natural choices for the clone.
 
 About halfway through the flight, things were hitting a crescendo. I'd just hit a conceptional FRP breakthrough, and was ready to implement it, when -- I run out of battery.

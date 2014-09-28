@@ -20,10 +20,10 @@ title: Home
     {% if post.comments %}
     <div class="post-comments"><a href="{{ post.url }}#disqus_thread">comments</a></div>
     {% endif %}
-    {% capture truncated_content %}{{ post.content | truncatewords: 100 }}{% endcapture %}
+    {% capture truncated_content %}{{ post.content | split:'<!--break-->' | first }}{% endcapture %}
     {{ truncated_content }}
-    {% if post.content != truncated_content %}
-    <a href="{{ post.url }}" class="post-more-link">More</a>
+    {% if post.content contains '<!--break-->' %}
+    <a href="{{ post.url }}" class="post-more-link">Read more</a>
     {% endif %}
   </div>
   <hr>

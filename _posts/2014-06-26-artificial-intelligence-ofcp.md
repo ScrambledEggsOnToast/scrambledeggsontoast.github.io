@@ -16,6 +16,8 @@ The space of decisions to be made in OFC is both fairly small and easily defined
 
 Thus Kachushi[^chinese], an artificial intelligence for OFC written in Haskell, was born.
 
+<!--break-->
+
 ## A primer on the rules of OFC
 
 OFC is played by 2, 3 or 4 players. Each player is capable of placing cards in their own *board*, visible to all, which has room for three cards in a top row, five cards in a middle row, and five cards in a bottom row. Once cards are placed in the board, they may not be moved &mdash; they are fixed in their position for the rest of the game.

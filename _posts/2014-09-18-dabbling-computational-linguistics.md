@@ -10,6 +10,8 @@ toc: true
 
 About a month ago, [/u/5outh](http://www.reddit.com/user/5outh) posted an article called [Modeling and Simulating Markov Chain Evolution in Haskell](http://5outh.github.io/posts/2014-08-04-markov-chains.html) to [/r/haskell](http://www.reddit.com/r/haskell). It's an interesting read, and it has a fairly amusing conclusion &mdash; a [twitter account called rapcandy](https://twitter.com/_rapcandy) that gives a single line of stochastic rap every day, using patterns drawn from the wisdom of Eminem.
 
+<!--break-->
+
 For a given sequence of things (be they words in a sentence, letters in a word, musical notes in a melody, etc.), we have that for every given pair of things, say _a_ and _b_, there is a certain probability of _b_ following _a_ in the sequence, which we call the **transition probability**. So for example in the sequence:
 
 
