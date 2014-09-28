@@ -3,6 +3,16 @@ layout: page
 title: Projects
 ---
 
+## Needle
+
+ASCII-fied arrow notation.
+
+[Post](http://scrambledeggsontoast.github.io/2014/09/28/needle-announce/).
+
+[GitHub](https://github.com/ScrambledEggsOnToast/needle).
+
+[Hackage](http://hackage.haskell.org/package/needle).
+
 ## Kachushi
 
 An artificial intelligence for the game of Open Face Chinese Poker.
