@@ -9,7 +9,7 @@ tags:
     - needle
 ---
 
-Haskell programmers have access to so-called arrow notation for programming with arrows[^whaterthey]. It looks something like this:
+Haskell programmers have access to so-called arrow notation for programming with arrows (i.e. generalised functions). It looks something like this:
 
 {% highlight haskell %}
 {-# LANGUAGE Arrows #-}
@@ -181,8 +181,4 @@ Needle is definitely not without its setbacks. For example, the following come t
 
 1. Commenting. Although needle does support Haskell style single line comments, it is hard sometimes to find the right place to put them.
 
-It is hard to say at this point whether needle is anything more than a curiosity. Let me know what you think!
-
----
-
-[^whaterthey]: I.e., generalised functions.
+It is also difficult to say at this point whether needle is anything more than a curiosity. Let me know what you think!
